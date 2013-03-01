@@ -1,0 +1,53 @@
+/*
+ * SkeltrackJointId.h
+ *
+ *  Created on: 11 de Fev de 2013
+ *      Author: fahrenheit
+ */
+
+#ifndef SKELTRACKJOINTID_H_
+#define SKELTRACKJOINTID_H_
+
+namespace Skeltrack {
+/**
+ * SkeltrackJointId:
+ * @SKELTRACK_JOINT_ID_HEAD: The head
+ * @SKELTRACK_JOINT_ID_LEFT_SHOULDER: The left shoulder
+ * @SKELTRACK_JOINT_ID_RIGHT_SHOULDER: The right shoulder
+ * @SKELTRACK_JOINT_ID_SHOULDER_CENTER: The shoulders' center, i.e. the neck
+ * @SKELTRACK_JOINT_ID_LEFT_ELBOW: The left elbow
+ * @SKELTRACK_JOINT_ID_RIGHT_ELBOW: The right elbow
+ * @SKELTRACK_JOINT_ID_LEFT_HAND: The left hand
+ * @SKELTRACK_JOINT_ID_RIGHT_HAND: The right hand
+ * @SKELTRACK_JOINT_ID_CENTER: Center of mass
+ * @SKELTRACK_JOINT_ID_LEFT_HIP: The left hip
+ * @SKELTRACK_JOINT_ID_RIGHT_HIP: The right hip
+ *
+ * Available joint ids.
+ **/
+enum JointId {
+	/** SKELTRACK_JOINT_ID_HEAD: The head */
+	SKELTRACK_JOINT_ID_HEAD = 0,
+	/** SKELTRACK_JOINT_ID_LEFT_SHOULDER: The left shoulder */
+	SKELTRACK_JOINT_ID_LEFT_SHOULDER = 1,
+	/** SKELTRACK_JOINT_ID_RIGHT_SHOULDER: The right shoulder */
+	SKELTRACK_JOINT_ID_RIGHT_SHOULDER = 2,
+	/** SKELTRACK_JOINT_ID_SHOULDER_CENTER: The shoulders' center, i.e. the neck */
+	SKELTRACK_JOINT_ID_SHOULDER_CENTER = 3,
+	/** SKELTRACK_JOINT_ID_LEFT_ELBOW: The left elbow */
+	SKELTRACK_JOINT_ID_LEFT_ELBOW = 4,
+	/** SKELTRACK_JOINT_ID_RIGHT_ELBOW: The right elbow */
+	SKELTRACK_JOINT_ID_RIGHT_ELBOW = 5,
+	/** SKELTRACK_JOINT_ID_LEFT_HAND: The left hand */
+	SKELTRACK_JOINT_ID_LEFT_HAND = 6,
+	/** SKELTRACK_JOINT_ID_RIGHT_HAND: The right hand */
+	SKELTRACK_JOINT_ID_RIGHT_HAND = 7,
+	/** SKELTRACK_JOINT_ID_CENTER: Center of mass */
+	SKELTRACK_JOINT_ID_CENTER = 8,
+	/** SKELTRACK_JOINT_ID_LEFT_HIP: The left hip */
+	SKELTRACK_JOINT_ID_LEFT_HIP = 9,
+	/** SKELTRACK_JOINT_ID_RIGHT_HIP: The right hip */
+	SKELTRACK_JOINT_ID_RIGHT_HIP = 10
+};
+}
+#endif /* SKELTRACKJOINTID_H_ */
